@@ -1,0 +1,73 @@
+Windows Registry Editor Version 5.00
+
+; OLED Black Theme with Gray Accent
+; Preserves the normal Windows lock screen, login, and security screens.
+; Appearance changes only; no lock-screen bypass or logon-background policies.
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Accent]
+"AccentColorMenu"=dword:ff000000
+"StartColorMenu"=dword:ff000000
+"AccentPalette"=hex:
+    b0,b2,b4,ff,
+    cc,ce,d0,ff,
+    00,00,00,ff,
+    90,92,94,ff,
+    00,00,00,ff,
+    00,00,00,ff,
+    00,00,00,ff,
+    00,00,00,ff
+
+[HKEY_USERS\.DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Accent]
+"AccentColorMenu"=dword:ff000000
+"StartColorMenu"=dword:ff000000
+"AccentPalette"=hex:
+    b0,b2,b4,ff,
+    cc,ce,d0,ff,
+    00,00,00,ff,
+    90,92,94,ff,
+    00,00,00,ff,
+    00,00,00,ff,
+    00,00,00,ff,
+    00,00,00,ff
+
+[HKEY_CURRENT_USER\Control Panel\Colors]
+"HotTrackingColor"="144 146 148"
+"Hilight"="84 86 88"
+"MenuHilight"="204 206 208"
+
+[HKEY_USERS\.DEFAULT\Control Panel\Colors]
+"HotTrackingColor"="144 146 148"
+"Hilight"="84 86 88"
+"MenuHilight"="204 206 208"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\DWM]
+"ColorPrevalence"=dword:00000001
+"AccentColor"=dword:ff000000
+"AccentColorInactive"=dword:ff000000
+
+[HKEY_USERS\.DEFAULT\SOFTWARE\Microsoft\Windows\DWM]
+"ColorPrevalence"=dword:00000001
+"AccentColor"=dword:ff000000
+"AccentColorInactive"=dword:ff000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize]
+"ColorPrevalence"=dword:00000001
+"AppsUseLightTheme"=dword:00000000
+"SystemUsesLightTheme"=dword:00000000
+"EnableTransparency"=dword:00000000
+
+[HKEY_USERS\.DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize]
+"ColorPrevalence"=dword:00000001
+"AppsUseLightTheme"=dword:00000000
+"SystemUsesLightTheme"=dword:00000000
+"EnableTransparency"=dword:00000000
+
+; Intentionally omitted:
+; HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\Background
+; DisableAcrylicBackgroundOnLogon
+; DisableLogonBackgroundImage
+; PersonalColors_Background
+; PersonalColors_Accent
+; NoLockScreen
+
+; Sign out and sign back in, or restart Windows, to apply changes.
