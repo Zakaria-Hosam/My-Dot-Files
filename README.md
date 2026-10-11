@@ -32,7 +32,7 @@ To install this setup, you need:
 ## Installation
 
 1. Back up your current Windhawk configuration and Windows Registry.
-2. Download and use [Windhawk Services Backup Utility 2.1.1](https://github.com/scorpion421/Windhawk-Services-Backup-Utility/releases/tag/2.1.1).
+2. Download everything by voidtools and use [Windhawk Services Backup Utility 2.1.1](https://github.com/scorpion421/Windhawk-Services-Backup-Utility/releases/tag/2.1.1).
 3. Apply the required registry edit.
 4. Install or restore the configuration files from this repository.
 5. Restart affected applications or Windows if required.
